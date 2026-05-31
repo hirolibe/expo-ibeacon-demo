@@ -4,7 +4,7 @@ import * as BeaconRadar from 'react-native-beacon-radar';
 // ======================================================
 // 自分のビーコンの UUID に書き換えてください
 // ======================================================
-export const BEACON_UUID = 'YOUR-BEACON-UUID-HERE';
+export const BEACON_UUID = 'E2C56DB5-DFFB-48D2-B060-D0F5A71096E0';
 
 export type DetectedBeacon = {
   uuid: string;
