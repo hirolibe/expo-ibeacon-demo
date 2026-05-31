@@ -1,0 +1,35 @@
+{
+  "expo": {
+    "name": "iBeaconDemo",
+    "slug": "expo-ibeacon-demo",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "userInterfaceStyle": "light",
+    "newArchEnabled": false,
+    "ios": {
+      "supportsTablet": false,
+      "bundleIdentifier": "jp.co.fusic.ibeacondemo",
+      "buildNumber": "1",
+      "infoPlist": {
+        "CFBundleDisplayName": "iBeaconDemo",
+        "NSLocationAlwaysAndWhenInUseUsageDescription": "iBeacon 信号を検出するために位置情報の使用許可が必要です。",
+        "NSLocationWhenInUseUsageDescription": "iBeacon 信号を検出するために位置情報の使用許可が必要です。",
+        "NSLocationAlwaysUsageDescription": "iBeacon 信号を検出するために位置情報の使用許可が必要です。",
+        "NSBluetoothAlwaysUsageDescription": "iBeacon の電波を検知するために Bluetooth を使用します。",
+        "NSBluetoothPeripheralUsageDescription": "iBeacon の電波を検知するために Bluetooth を使用します。",
+        "UIBackgroundModes": ["location", "bluetooth-central"]
+      }
+    },
+    "plugins": [
+      "react-native-beacon-radar",
+      [
+        "expo-build-properties",
+        {
+          "ios": {
+            "deploymentTarget": "15.1"
+          }
+        }
+      ]
+    ]
+  }
+}
