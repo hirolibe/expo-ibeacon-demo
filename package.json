@@ -7,7 +7,8 @@
     "ios": "expo run:ios",
     "prebuild": "expo prebuild",
     "typecheck": "tsc --noEmit",
-    "doctor": "expo-doctor"
+    "doctor": "expo-doctor",
+    "android": "expo run:android"
   },
   "dependencies": {
     "expo": "~54.0.35",
